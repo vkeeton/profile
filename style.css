@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(243, 241, 232);
+}
+
+h1 {
+  font-family: 'Prata', serif;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  color:rgb(31, 24, 34);
+}
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30rem;
+  color: rgba(14, 6, 63, 0.971);
+}
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Palanquin', sans-serif;
+}
+
+i {
+  color: rgba(14, 6, 63, 0.971);
+}
+
+.img-oval {
+  border-radius: 50%;
+}
+
+.card-white {
+  background: rgb(250, 249, 247);
+  text-align: center;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.fa-brands {
+  color: rgb(80, 127, 167);
+  font-size: 30px;
+}
+
+.list-inline li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.btn-blue {
+  background: rgb(80, 127, 167);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  color: rgb(250, 249, 247);
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-decoration: none;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
