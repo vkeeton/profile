@@ -10,7 +10,7 @@ h1 {
 }
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 30rem;
+  font-size: 30px;
   color: rgba(14, 6, 63, 0.971);
 }
 h3 {
@@ -43,6 +43,14 @@ i {
 .fa-brands {
   color: rgb(80, 127, 167);
   font-size: 30px;
+}
+
+.fa-brands:hover {
+  color: rgb(6, 33, 57);
+}
+
+.btn-blue:hover {
+  background-color: rgb(6, 33, 57);
 }
 
 .list-inline li {
